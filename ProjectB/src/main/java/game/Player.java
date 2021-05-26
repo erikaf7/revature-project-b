@@ -1,0 +1,19 @@
+package game;
+
+import fixtures.Room;
+
+public class Player {
+		private Room currentRoom;
+		
+		// getter and setter for current room
+		public Room getCurrentRoom() {
+			return currentRoom;
+		}
+		
+		public void setCurrentRoom(Room currentRoom) {
+			this.currentRoom = currentRoom;
+		}
+	}
+
+
+
